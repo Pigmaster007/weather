@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#inpCityName {
+    height: 40px;
+    width: 80%;
+    border-radius: 20px;
+    font-size: 30px;
+    border: none;
+    outline-style: none;
+    text-align: center;
+}
+
+#inpCityName:focus{
+    background-color: rgb(199, 199, 199);
+}
+
+#searchBtn {
+    background-color: gray;
+    width: 15%;
+    border-radius: 20px;
+    font-size: 30px;
+    border: none;
+}
+
+#searchBtn:hover {
+    background-color: rgb(199, 199, 199);
+}
+
+h1, h2 {
+    font-size: 50px;
+}
